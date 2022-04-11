@@ -1,5 +1,5 @@
 
-function Socials() {
+function Logo() {
     return (
         <div className="col text-md-center pl-0 pl-md-3">
             <a href="https://thiagoalmeidas.github.io/port-thi" className="logo">
@@ -8,4 +8,4 @@ function Socials() {
         </div>
     );
 }
-export default Socials;
+export default Logo;

@@ -3819,3 +3819,7 @@ aside .instafeed-grid.gutter-extra-large, footer .instafeed-grid.gutter-extra-la
 @media (prefers-color-scheme: dark) {
     body {background-color: #000;}
 }
+
+.card-width { 
+    width: 18rem;
+}
