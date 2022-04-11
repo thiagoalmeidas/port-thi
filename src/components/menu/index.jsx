@@ -28,9 +28,9 @@ function Menu() {
                                 <ul className="hamburger-menu-links pt-4 mt-4 alt-font">
                                     <li><a href="https://thiagoalmeidas.github.io/port-thi">Home</a>{/*<Link to="/home" title="Home">Home</Link>*/}</li>
                                     <li><Link to="/sobre" title="Sobre">Experiencia</Link></li>
-                                    <li><Link to="/" title="Backend">Backend</Link></li>
-                                    <li><Link to="/" title="Frontend">Frontend</Link></li>
-                                    <li><Link to="/" title="Graphics">Graphics</Link></li>
+                                    <li><Link to="/backend" title="Backend">Backend</Link></li>
+                                    <li><Link to="/frontend" title="Frontend">Frontend</Link></li>
+                                    <li><Link to="/graphics" title="Graphics">Graphics</Link></li>
                                 </ul>
                             </div>
                             <div className="col-lg-4 col-md-5 d-flex align-items-center social-style-3">
