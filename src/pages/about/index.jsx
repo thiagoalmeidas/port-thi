@@ -1,7 +1,7 @@
 import Header from '../../components/header';
 import { FaQuoteLeft } from 'react-icons/fa';
 import { FaArrowDown } from 'react-icons/fa';
-
+import { FaCloudDownloadAlt } from 'react-icons/fa';
 
 
 function Home() {
@@ -51,7 +51,52 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </section>          
+            </section>  
+
+            <section className="wow animate__fadeIn bg-white py-5">
+                <div className="container">
+                <h5 className="text-center border-bottom border-primary pb-1 fs-5 text-primary"><strong>Stacks</strong></h5>
+                    <div className="row font-weight-500">
+
+                        
+                        <div className="col-12 col-xl-4 col-lg-5 offset-lg-1 offset-xl-0 col-md-6 wow animate__fadeIn last-paragraph-no-margin" data-wow-delay="0.2s">
+                            <h4 className="fs-5"><strong>FrontEnd</strong></h4>
+                            <div className="d-flex flex-wrap gap-2">
+                                <div className="border  border-warning rounded p-2">HTML5</div>
+                                <div className="border  border-warning rounded p-2">CSS3</div>
+                                <div className="border  border-warning rounded p-2">Sass</div>
+                                <div className="border  border-warning rounded p-2">Bootstrap</div>
+                                <div className="border  border-warning rounded p-2">Javascript</div>
+                                <div className="border  border-warning rounded p-2">ReactJS</div>
+                                <div className="border  border-warning rounded p-2">EJS</div>                            
+                            </div>
+                        </div>
+
+                        <div className="col-12 col-xl-4 col-lg-5 offset-lg-1 offset-xl-0 col-md-6 wow animate__fadeIn last-paragraph-no-margin" data-wow-delay="0.2s">
+                            <h4 className="fs-5"><strong>BackEnd</strong></h4>
+                            <div className="d-flex flex-wrap gap-2">
+                                <div className="border  border-primary rounded p-2">Java / Spring Boot</div>
+                                <div className="border  border-primary rounded p-2">CSharp / Dot.Net</div>
+                                <div className="border  border-primary rounded p-2">NodeJS</div>
+                                <div className="border  border-primary rounded p-2">ExpressJS</div>
+                                <div className="border  border-primary rounded p-2">MySql</div>
+                                <div className="border  border-primary rounded p-2">MongoDB</div>
+                            </div>             
+                        </div>
+
+                        <div className="col-12 col-xl-4 col-lg-5 offset-lg-1 offset-xl-0 col-md-6 wow animate__fadeIn last-paragraph-no-margin" data-wow-delay="0.2s">
+                            <h4 className="fs-5"><strong>Graphics</strong></h4>
+                            <div className="d-flex flex-wrap gap-2">
+                                <div className="border  border-info rounded p-2">Figma</div>
+                                <div className="border  border-info rounded p-2">Photoshop</div>
+                                <div className="border  border-info rounded p-2">Illustrator</div>                   
+                            </div>                         
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>         
 
             {/* start information section */}
             <section className="p-0 wow animate__fadeIn bg-light-gray" id='expertise'>
@@ -221,6 +266,10 @@ function Home() {
                 </div>
             </section>
             {/* end information section */}
+
+            <div className="flex-fill bg-primary">
+                <h4 className="fs-5 text-center font-weight-600"><a className="text-white" href="img/CV-Thiago de Almeida Silva.pdf" download="Curriculo Thiago">Baixe meu Currículo <FaCloudDownloadAlt/></a></h4>
+            </div>
 
             <section className="wow animate__fadeIn">
                 <div className="container">
