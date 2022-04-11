@@ -21,7 +21,7 @@ function Slider() {
                                 </div>
                             </div>
                             <span className="text-medium position-absolute bottom-50 text-light-gray w-100 text-center">
-                                <a href="portfolio-full-width-grid-overlay.html" className="text-white-2 text-white-2-hover">Ensinos & Formações</a>
+                                <Link to="/sobre" className="text-white-2 text-white-2-hover" title="Sobre">Ensinos & Formações</Link>
                             </span>
                         </div>
                     </div>
@@ -32,12 +32,12 @@ function Slider() {
                             <div className="absolute-middle-center w-100 text-center">
                                 <div className="parallax-text">
                                     <h2 className="text-white-2 alt-font font-weight-600 parallax-text-shadow">
-                                        <a href="single-project-page-02.html" className="text-white-2 text-white-2-hover">Tailoring Blog</a>
+                                        <Link to="/frontend" className="text-white-2 text-white-2-hover" title="FrontEnd">FrontEnd</Link>
                                     </h2>
                                 </div>
                             </div>
                             <span className="text-medium position-absolute bottom-50 text-light-gray w-100 text-center">
-                                <a href="portfolio-full-width-grid-overlay.html" className="text-white-2 text-white-2-hover">UI Design & Identity</a>
+                            <Link to="/frontend" className="text-white-2 text-white-2-hover" title="FrontEnd">Projetos & Trabalhos</Link>
                             </span>
                         </div>
                     </div>
@@ -48,12 +48,12 @@ function Slider() {
                             <div className="absolute-middle-center w-100 text-center">
                                 <div className="parallax-text">
                                     <h2 className="text-white-2 alt-font font-weight-600 parallax-text-shadow">
-                                        <a href="single-project-page-03.html" className="text-white-2 text-white-2-hover">Design Blast</a>
+                                        <Link to="/backend" className="text-white-2 text-white-2-hover" title="BackEnd">BackEnd</Link>
                                     </h2>
                                 </div>
                             </div>
                             <span className="text-medium position-absolute bottom-50 text-light-gray w-100 text-center">
-                                <a href="portfolio-full-width-grid-overlay.html" className="text-white-2 text-white-2-hover">Logo & Brochure</a>
+                                <Link to="/backend" className="text-white-2 text-white-2-hover" title="BackEnd">Projetos & Trabalhos</Link>
                             </span>
                         </div>
                     </div>
@@ -64,12 +64,12 @@ function Slider() {
                             <div className="absolute-middle-center w-100 text-center">
                                 <div className="parallax-text">
                                     <h2 className="text-white-2 alt-font font-weight-600 parallax-text-shadow">
-                                        <a href="single-project-page-04.html" className="text-white-2 text-white-2-hover">Rubber Studio</a>
+                                        <Link to="/graphics" className="text-white-2 text-white-2-hover" title="Graphics">Graphics</Link>
                                     </h2>
                                 </div>
                             </div>
                             <span className="text-medium position-absolute bottom-50 text-light-gray w-100 text-center">
-                                <a href="portfolio-full-width-grid-overlay.html" className="text-white-2 text-white-2-hover">Branding & Identity</a>
+                                <Link to="/graphics" className="text-white-2 text-white-2-hover" title="Graphics">Projetos & Trabalhos</Link>
                             </span>
                         </div>
                     </div>
@@ -80,47 +80,17 @@ function Slider() {
                             <div className="absolute-middle-center w-100 text-center">
                                 <div className="parallax-text">
                                     <h2 className="text-white-2 alt-font font-weight-600 parallax-text-shadow">
-                                        <a href="single-project-page-05.html" className="text-white-2 text-white-2-hover">Eye Glasses</a>
+                                        <Link to="/branding" className="text-white-2 text-white-2-hover" title="Branding">Branding</Link>
                                     </h2>
                                 </div>
                             </div>
                             <span className="text-medium position-absolute bottom-50 text-light-gray w-100 text-center">
-                                <a href="portfolio-full-width-grid-overlay.html" className="text-white-2 text-white-2-hover">Web & Branding</a>
+                            <Link to="/branding" className="text-white-2 text-white-2-hover" title="Branding">Projetos & Trabalhos</Link>
                             </span>
                         </div>
                     </div>
 
-                    <div className="swiper-slide cover-background" style={{ backgroundImage: "url('img/homepage-2-slider-img-6.jpg')" }}>
-                        <div className="opacity-extra-medium bg-black"></div>
-                        <div className="position-relative h-100">
-                            <div className="absolute-middle-center w-100 text-center">
-                                <div className="parallax-text">
-                                    <h2 className="text-white-2 alt-font font-weight-600 parallax-text-shadow">
-                                        <a href="single-project-page-06.html" className="text-white-2 text-white-2-hover">Motion Design</a>
-                                    </h2>
-                                </div>
-                            </div>
-                            <span className="text-medium position-absolute bottom-50 text-light-gray w-100 text-center">
-                                <a href="portfolio-full-width-grid-overlay.html" className="text-white-2 text-white-2-hover">Branding & Identity</a>
-                            </span>
-                        </div>
-                    </div>
-
-                    <div className="swiper-slide cover-background" style={{ backgroundImage: "url('img/homepage-2-slider-img-7.jpg')" }}>
-                        <div className="opacity-extra-medium bg-black"></div>
-                        <div className="position-relative h-100">
-                            <div className="absolute-middle-center w-100 text-center">
-                                <div className="parallax-text">
-                                    <h2 className="text-white-2 alt-font font-weight-600 parallax-text-shadow">
-                                        <a href="single-project-page-07.html" className="text-white-2 text-white-2-hover">Hunter Design</a>
-                                    </h2>
-                                </div>
-                            </div>
-                            <span className="text-medium position-absolute bottom-50 text-light-gray w-100 text-center">
-                                <a href="portfolio-full-width-grid-overlay.html" className="text-white-2 text-white-2-hover">Logo & Brochure</a>
-                            </span>
-                        </div>
-                    </div>
+                   
 
                 </div>
 

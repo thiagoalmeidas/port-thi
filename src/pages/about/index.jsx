@@ -227,15 +227,12 @@ function Home() {
                     <div className="row justify-content-center">
                         <div className="col-12 col-lg-8 col-md-10 text-center">
                             <h5 className="alt-font text-primary font-weight-600 margin-5px-bottom">Tecnologia/Pensamentos</h5>
-                            <h5 className="alt-font font-weight-300">“Temo o dia em que a tecnologia irá superar a nossa interação humana. O mundo irá ter uma geração de idiotas”</h5>
-                            <span className="text-uppercase text-extra-small alt-font letter-spacing-3 text-medium-gray">Albert Einstein</span>
+                            <h5 className="alt-font font-weight-300">“Só por que alguma coisa não faz o que você planejou que ela fizesse não quer dizer que ela seja inútil”</h5>
+                            <span className="text-uppercase text-extra-small alt-font letter-spacing-3 text-medium-gray">Thomas Edison</span>
                         </div>
                     </div>
                 </div>
             </section>
-
-
-
         </div>
     );
 }
