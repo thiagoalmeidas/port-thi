@@ -35,13 +35,13 @@ function Home() {
             </section>
 
 
-            <section className="wow animate__fadeIn">
+            <section className="wow p-4 animate__fadeIn">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 col-md-12 wow p-5 m-2 animate__fadeIn">
+                        <div className="col-12 col-md-12 wow p-4 animate__fadeIn">
                             <div className="position-relative icon-with-paragraph">
                                 <span className="text-deep-pink position-absolute left-0 top-0 alt-font special-char-extra-large d-none d-lg-block">*</span>
-                                <h5 className="font-weight-300  w-90 padding-nineteen-left lg-padding-twenty-left lg-w-100 md-no-padding-left sm-margin-five-bottom">
+                                <h5 className="font-weight-300 fs-4 w-90 padding-nineteen-left lg-padding-twenty-left lg-w-100 md-no-padding-left sm-margin-five-bottom">
                                 Sou orientado por ideias diferentes e únicas, trabalhando com um forte foco no design e na experiência do usuário. meus projetos devem envolver seu público com simplicidade e robustes, sempre me preocupando com as condicoes do frontend e backend, minhas qualificações me permitem navegar pelo lado cliente e servidor.
                                 </h5>
                             </div>
@@ -102,7 +102,7 @@ function Home() {
                 <div className="container-fluid">
                     {/*col comeca aqui*/}
                     <div className="row row-cols-1 row-cols-lg-2">
-                        
+
                         <div className="col wow animate__fadeInRight padding-five-tb padding-five-lr md-padding-nine-half-tb xs-padding-15px-lr xs-padding-50px-tb">
                             <h5 className="text-center border-bottom border-primary pb-1 fs-5 text-primary"><strong>Cursos/Formações</strong></h5>
                             <div className="row row-cols-1 row-cols-xl-2 row-cols-lg-1 row-cols-md-2 row-cols-sm-2">
@@ -141,7 +141,7 @@ function Home() {
                     <div className="row justify-content-center">
                         <div className="col-12 col-lg-8 col-md-10 text-center">
                             <h5 className="alt-font text-primary font-weight-600 margin-5px-bottom">Tecnologia/Pensamentos</h5>
-                            <h5 className="alt-font font-weight-300">“Só por que alguma coisa não faz o que você planejou que ela fizesse não quer dizer que ela seja inútil”</h5>
+                            <h5 className="alt-font font-weight-400">“Só por que alguma coisa não faz o que você planejou que ela fizesse não quer dizer que ela seja inútil”</h5>
                             <span className="text-uppercase text-extra-small alt-font letter-spacing-3 text-medium-gray">Thomas Edison</span>
                         </div>
                     </div>

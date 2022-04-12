@@ -74,24 +74,7 @@ function Slider() {
                         </div>
                     </div>
 
-                    <div className="swiper-slide cover-background" style={{ backgroundImage: "url('img/homepage-2-slider-img-5.jpg')" }}>
-                        <div className="opacity-extra-medium bg-black"></div>
-                        <div className="position-relative h-100">
-                            <div className="absolute-middle-center w-100 text-center">
-                                <div className="parallax-text">
-                                    <h2 className="text-white-2 alt-font font-weight-600 parallax-text-shadow">
-                                        <Link to="/branding" className="text-white-2 text-white-2-hover" title="Branding">Branding</Link>
-                                    </h2>
-                                </div>
-                            </div>
-                            <span className="text-medium position-absolute bottom-50 text-light-gray w-100 text-center">
-                            <Link to="/branding" className="text-white-2 text-white-2-hover" title="Branding">Projetos & Trabalhos</Link>
-                            </span>
-                        </div>
-                    </div>
-
-                   
-
+                    
                 </div>
 
                 <div className="swiper-pagination swiper-pagination-square swiper-pagination-black"></div>
