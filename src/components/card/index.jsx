@@ -1,4 +1,4 @@
-import Stack from '../../components/stack';
+import Stackgraph from '../../components/stack/graph';
 
 
 function Card(props) {
@@ -11,9 +11,9 @@ function Card(props) {
                     <p className="card-text">{props.desc}</p>
                 </div>
                 <div className="d-flex m-2 flex-wrap justify-content-center gap-2">
-                    <Stack stackgraphic={props.stack1}/>
-                    <Stack stackgraphic={props.stack2}/>
-                    <Stack stackgraphic={props.stack3}/>
+                    <Stackgraph stackgraph={props.stack1}/>
+                    <Stackgraph stackgraph={props.stack2}/>
+                    <Stackgraph stackgraph={props.stack3}/>
                 </div>
             </div>
         </div>

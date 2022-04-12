@@ -1,7 +1,9 @@
 import Header from '../../components/header';
 import { FaQuoteLeft } from 'react-icons/fa';
-import { FaArrowDown } from 'react-icons/fa';
 import { FaCloudDownloadAlt } from 'react-icons/fa';
+import Stackgraph from '../../components/stack/graph';
+import Stackfront from '../../components/stack/front';
+import Stackback from '../../components/stack/back';
 
 
 function Home() {
@@ -35,20 +37,15 @@ function Home() {
             <section className="wow animate__fadeIn">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 col-md-6 wow animate__fadeIn">
+                        <div className="col-12 col-md-12 wow p-5 m-2 animate__fadeIn">
                             <div className="position-relative icon-with-paragraph">
                                 <span className="text-deep-pink position-absolute left-0 top-0 alt-font special-char-extra-large d-none d-lg-block">*</span>
                                 <h5 className="font-weight-300  w-90 padding-nineteen-left lg-padding-twenty-left lg-w-100 md-no-padding-left sm-margin-five-bottom">
-                                    Sou amante da arte e a tecnologia pra mim é a nova arte, somos impactados visualmente e somos conduzidos pelas sua engrenagens ao comando do ser humano.
+                                Sou orientado por ideias diferentes e únicas, trabalhando com um forte foco no design e na experiência do usuário. meus projetos devem envolver seu público com simplicidade e robustes, sempre me preocupando com as condicoes do frontend e backend, minhas qualificações me permitem navegar pelo lado cliente e servidor.
                                 </h5>
                             </div>
                         </div>
-                        <div className="col-12 col-xl-6 col-lg-5 offset-lg-1 offset-xl-0 col-md-6 wow animate__fadeIn last-paragraph-no-margin" data-wow-delay="0.2s">
-                            <p className="text-medium font-weight-400 w-70 line-height-26 lg-w-100">
-                                Sou orientado por ideias diferentes e únicas, trabalhando com um forte foco no design e na experiência do usuário. meus projetos devem envolver seu público com simplicidade e robustes, sempre me preocupando com as condicoes do frontend e backend, minhas qualificações me permitem navegar pelo lado cliente e servidor.
-                            </p>
-                            <a href="#expertise" className="inner-link text-uppercase alt-font margin-15px-top d-inline-block font-weight-600 text-deep-pink text-extra-small">Veja minhas Formacoes<FaArrowDown className="margin-5px-left text-medium position-relative top-2"/></a>
-                        </div>
+                        
                     </div>
                 </div>
             </section>  
@@ -60,36 +57,37 @@ function Home() {
 
                         
                         <div className="col-12 col-xl-4 col-lg-5 offset-lg-1 offset-xl-0 col-md-6 wow animate__fadeIn last-paragraph-no-margin" data-wow-delay="0.2s">
-                            <h4 className="fs-5"><strong>FrontEnd</strong></h4>
+                            <h4 className="m-2 fs-5"><strong>FrontEnd</strong></h4>
                             <div className="d-flex flex-wrap gap-2">
-                                <div className="border  border-warning rounded p-2">HTML5</div>
-                                <div className="border  border-warning rounded p-2">CSS3</div>
-                                <div className="border  border-warning rounded p-2">Sass</div>
-                                <div className="border  border-warning rounded p-2">Bootstrap</div>
-                                <div className="border  border-warning rounded p-2">Javascript</div>
-                                <div className="border  border-warning rounded p-2">ReactJS</div>
-                                <div className="border  border-warning rounded p-2">EJS</div>                            
+                                <Stackfront stackfront='HTML5'/>
+                                <Stackfront stackfront='CSS3'/>
+                                <Stackfront stackfront='SASS'/>
+                                <Stackfront stackfront='BOOTSTRAP'/>
+                                <Stackfront stackfront='JAVASCRIPT'/>
+                                <Stackfront stackfront='REACTJS'/>
+                                <Stackfront stackfront='EJS'/>
+                           
                             </div>
                         </div>
 
                         <div className="col-12 col-xl-4 col-lg-5 offset-lg-1 offset-xl-0 col-md-6 wow animate__fadeIn last-paragraph-no-margin" data-wow-delay="0.2s">
-                            <h4 className="fs-5"><strong>BackEnd</strong></h4>
+                            <h4 className="m-2 fs-5"><strong>BackEnd</strong></h4>
                             <div className="d-flex flex-wrap gap-2">
-                                <div className="border  border-primary rounded p-2">Java / Spring Boot</div>
-                                <div className="border  border-primary rounded p-2">CSharp / Dot.Net</div>
-                                <div className="border  border-primary rounded p-2">NodeJS</div>
-                                <div className="border  border-primary rounded p-2">ExpressJS</div>
-                                <div className="border  border-primary rounded p-2">MySql</div>
-                                <div className="border  border-primary rounded p-2">MongoDB</div>
+                                <Stackback stackback='JAVA / SPRINGBOOT'/>
+                                <Stackback stackback='CSHARP / DOT.NET'/>
+                                <Stackback stackback='NODEJS'/>
+                                <Stackback stackback='EXPRESSJS'/>
+                                <Stackback stackback='MYQSL'/>
+                                <Stackback stackback='MONGODB'/>
                             </div>             
                         </div>
 
                         <div className="col-12 col-xl-4 col-lg-5 offset-lg-1 offset-xl-0 col-md-6 wow animate__fadeIn last-paragraph-no-margin" data-wow-delay="0.2s">
-                            <h4 className="fs-5"><strong>Graphics</strong></h4>
+                            <h4 className="m-2 fs-5"><strong>Graphics</strong></h4>
                             <div className="d-flex flex-wrap gap-2">
-                                <div className="border  border-info rounded p-2">Figma</div>
-                                <div className="border  border-info rounded p-2">Photoshop</div>
-                                <div className="border  border-info rounded p-2">Illustrator</div>                   
+                                <Stackgraph stackgraph='FIGMA'/>
+                                <Stackgraph stackgraph='PHOTOSHOP'/>
+                                <Stackgraph stackgraph='ILLUSTRATOR'/>               
                             </div>                         
                         </div>
 
