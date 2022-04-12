@@ -14,7 +14,7 @@ function Menu() {
             </div>
             <div className="hamburger-menu-wrepper">
                 <div className="hamburger-logo text-start">
-                    <a href="https://thiagoalmeidas.github.io/port-thi" className="logo">
+                    <a href="https://6254f38208e2c36ce96fef3d--admirable-travesseiro-12b279.netlify.app" className="logo">
                         <img src="img/logo-white.png" alt="Thiago Almeida" width="180px"/>
                     </a>
                 </div>
@@ -26,7 +26,7 @@ function Menu() {
                         <div className="menu-wrapper d-md-flex flex-md-row justify-content-center text-start h-100">
                             <div className="col-lg-8 col-md-7 d-flex align-items-center">
                                 <ul className="hamburger-menu-links pt-4 mt-4 alt-font">
-                                    <li><a href="https://thiagoalmeidas.github.io/port-thi">Home</a>{/*<Link to="/home" title="Home">Home</Link>*/}</li>
+                                    <li><a href="https://6254f38208e2c36ce96fef3d--admirable-travesseiro-12b279.netlify.app">Home</a>{/*<Link to="/home" title="Home">Home</Link>*/}</li>
                                     <li><Link to="/sobre" title="Sobre">Experiencia</Link></li>
                                     <li><Link to="/backend" title="Backend">Backend</Link></li>
                                     <li><Link to="/frontend" title="Frontend">Frontend</Link></li>
