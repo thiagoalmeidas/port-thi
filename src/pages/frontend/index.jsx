@@ -40,14 +40,14 @@ function Frontend() {
                                     <tr>
                                         <th scope="row"> Plataformas </th>
                                         <td>Desktop - Mobile</td>
-                                    </tr>
+                                    </tr>                                    
                                     <tr>
-                                        <th scope="row"> Stacks </th>
-                                        <td>Figma - Photoshop - Illustrator - SQL - React</td>
-                                    </tr>
+                                        <th scope="row"> FrontEnd </th>
+                                        <td>HTML5 - CSS3 - REACTJS - SASS - NODEJS - EJS</td>
+                                    </tr>                                  
                                     <tr>
                                         <th scope="row"> Estado </th>
-                                        <td> Em Construcao </td>
+                                        <td> Em Andamento </td>
                                     </tr>
                                     <tr>
                                         <th scope="row"> GitHub </th>
