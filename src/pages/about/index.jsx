@@ -4,6 +4,7 @@ import { FaCloudDownloadAlt } from 'react-icons/fa';
 import Stackgraph from '../../components/stack/graph';
 import Stackfront from '../../components/stack/front';
 import Stackback from '../../components/stack/back';
+import Experience from '../../components/card/experience';
 
 
 function Home() {
@@ -101,162 +102,28 @@ function Home() {
                 <div className="container-fluid">
                     {/*col comeca aqui*/}
                     <div className="row row-cols-1 row-cols-lg-2">
+                        
                         <div className="col wow animate__fadeInRight padding-five-tb padding-five-lr md-padding-nine-half-tb xs-padding-15px-lr xs-padding-50px-tb">
                             <h5 className="text-center border-bottom border-primary pb-1 fs-5 text-primary"><strong>Cursos/Formações</strong></h5>
                             <div className="row row-cols-1 row-cols-xl-2 row-cols-lg-1 row-cols-md-2 row-cols-sm-2">
-                                {/* start feature box item */}
-                                <div className="col margin-six-bottom md-margin-40px-bottom last-paragraph-no-margin text-center text-md-start">
-                                    <div className="row">
-                                        <div className="col-12 col-lg-3 text-center">
-                                            <h3 className="text-light-gray font-weight-300 mb-0 letter-spacing-minus-2">01</h3>
-                                        </div>
-                                        <div className="col-12 col-lg-9 margin-5px-top text-center text-lg-start">
-                                            <span className="alt-font text-extra-dark-gray font-weight-600 margin-one-bottom d-block">Desenvolvedor FullStack</span>
-                                            <span className="alt-font text-extra-small text-uppercase margin-10px-bottom d-block">Recode 540hs (Set/21 a Abr/22)</span>
-                                            <p className="d-inline-block w-90 xl-w-95">Desenvolvimento de software, foco em backend e frontend, softskills e hardskills</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* end feature box item */}
-                                {/* start feature box item */}
-                                <div className="col margin-six-bottom md-margin-40px-bottom last-paragraph-no-margin text-center text-md-start">
-                                    <div className="row">
-                                        <div className="col-12 col-lg-3 text-center">
-                                            <h3 className="text-light-gray font-weight-300 mb-0 letter-spacing-minus-2">02</h3>
-                                        </div>
-                                        <div className="col-12 col-lg-9 margin-5px-top text-center text-lg-start">
-                                            <span className="alt-font text-extra-dark-gray font-weight-600 margin-one-bottom d-block">Trilhas Fundamentar e Conectar (FullStack)</span>
-                                            <span className="alt-font text-extra-small text-uppercase margin-10px-bottom d-block">Rocketseat (2021)</span>
-                                            <p className="d-inline-block w-90 xl-w-95">Curso FullStack 420 aulas 24 hrs, conceitos intermediários sobre Javascript, NodeJS, React, ExpressJS, EJS, Responsividade ...</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* end feature box item */}
-                                {/* start feature box item */}
-                                <div className="col margin-six-bottom md-margin-40px-bottom last-paragraph-no-margin text-center text-md-start">
-                                    <div className="row">
-                                        <div className="col-12 col-lg-3 text-center">
-                                            <h3 className="text-light-gray font-weight-300 mb-0 letter-spacing-minus-2">03</h3>
-                                        </div>
-                                        <div className="col-12 col-lg-9 margin-5px-top text-center text-lg-start">
-                                            <span className="alt-font text-extra-dark-gray font-weight-600 margin-one-bottom d-block">Designer Gráfico</span>
-                                            <span className="alt-font text-extra-small text-uppercase margin-10px-bottom d-block">Escola de Artes Pan Amricana (2007/2010)</span>
-                                            <p className="d-inline-block w-90 xl-w-95">Comunicação visual e bases do ambiente digital, criação, design e direção de arte.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* end feature box item */}
-                                
-                                {/* start feature box item */}
-                                <div className="col md-margin-40px-bottom lg-margin-six-bottom last-paragraph-no-margin text-center text-md-start">
-                                    <div className="row">
-                                        <div className="col-12 col-lg-3 text-center">
-                                            <h3 className="text-light-gray font-weight-300 mb-0 letter-spacing-minus-2">04</h3>
-                                        </div>
-                                        <div className="col-12 col-lg-9 margin-5px-top text-center text-lg-start">
-                                            <span className="alt-font text-extra-dark-gray font-weight-600 margin-one-bottom d-block">Javascript Avançado</span>
-                                            <span className="alt-font text-extra-small text-uppercase margin-10px-bottom d-block">Udemy (2021)</span>
-                                            <p className="d-inline-block w-90 xl-w-95">Curso do intermediário ao avançado com duração de 688 aulas – 97 hrs</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* end feature box item */}
-                                {/* start feature box item */}
-                                <div className="col last-paragraph-no-margin text-center text-md-start">
-                                    <div className="row">
-                                        <div className="col-12 col-lg-3 text-center">
-                                            <h3 className="text-light-gray font-weight-300 mb-0 letter-spacing-minus-2">05</h3>
-                                        </div>
-                                        <div className="col-12 col-lg-9 margin-5px-top text-center text-lg-start">
-                                            <span className="alt-font text-extra-dark-gray font-weight-600 margin-one-bottom d-block">Robô de investimentos</span>
-                                            <span className="alt-font text-extra-small text-uppercase margin-10px-bottom d-block">Udemy (2021)</span>
-                                            <p className="d-inline-block w-90 xl-w-95">Curso de criação de robô de investimentos focado na plataforma MetaTrader utilizando a linguagem MQL5 81 aulas – 6hrs</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* end feature box item */}
-                                {/* start feature box item */}
-                                <div className="col last-paragraph-no-margin text-center text-md-start">
-                                    <div className="row">
-                                        <div className="col-12 col-lg-3 text-center">
-                                            <h3 className="text-light-gray font-weight-300 mb-0 letter-spacing-minus-2">06</h3>
-                                        </div>
-                                        <div className="col-12 col-lg-9 margin-5px-top text-center text-lg-start">
-                                            <span className="alt-font text-extra-dark-gray font-weight-600 margin-one-bottom d-block">Git e Github</span>
-                                            <span className="alt-font text-extra-small text-uppercase margin-10px-bottom d-block">Udemy (2021)</span>
-                                            <p className="d-inline-block w-90 xl-w-95">Versionamento utilizando o git 30 aulas – 2 hrs</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* end feature box item */}
+                                <Experience num='01' title='Desenvolvedor FullStack' subtitle='Recode 540hs (Set/21 a Abr/22)' desc='Desenvolvimento de software, foco em backend e frontend, softskills e hardskills'/>
+                                <Experience num='02' title='Trilhas Fundamentar e Conectar (FullStack)' subtitle='Rocketseat (2021)' desc='Curso FullStack 420 aulas 24 hrs, conceitos intermediários sobre Javascript, NodeJS, React, ExpressJS, EJS, Responsividade ...'/>
+                                <Experience num='03' title='Designer Gráfico' subtitle='Escola de Artes Pan Amricana (2007/2010)' desc='Comunicação visual e bases do ambiente digital, criação, design e direção de arte.'/>
+                                <Experience num='04' title='Javascript Avançado' subtitle='Udemy (2021)' desc='Curso do intermediário ao avançado com duração de 688 aulas – 97 hrs'/>                              
+                                <Experience num='05' title='Robô de investimentos' subtitle='Udemy (2021)' desc='Curso de criação de robô de investimentos focado na plataforma MetaTrader utilizando a linguagem MQL5 81 aulas – 6hrs'/>
+                                <Experience num='06' title='Git e Github' subtitle='Udemy (2021)' desc='Versionamento utilizando o git 30 aulas – 2 hrs'/>                                
                             </div>
                         </div>
-
 
                         <div className="col wow animate__fadeInRight padding-five-tb padding-five-lr md-padding-nine-half-tb xs-padding-15px-lr xs-padding-50px-tb">
                         <h5 className="text-center border-bottom border-primary pb-1 fs-5 text-primary"><strong>Trabalhos/Experiências</strong></h5>
                             <div className="row row-cols-1 row-cols-xl-2 row-cols-lg-1 row-cols-md-2 row-cols-sm-2">
-                                {/* start feature box item */}
-                                <div className="col margin-six-bottom md-margin-40px-bottom last-paragraph-no-margin text-center text-md-start">
-                                    <div className="row">
-                                        <div className="col-12 col-lg-3 text-center">
-                                            <h3 className="text-light-gray font-weight-300 mb-0 letter-spacing-minus-2">01</h3>
-                                        </div>
-                                        <div className="col-12 col-lg-9 margin-5px-top text-center text-lg-start">
-                                            <span className="alt-font text-extra-dark-gray font-weight-600 margin-one-bottom d-block">Murb - Branding</span>
-                                            <span className="alt-font text-extra-small text-uppercase margin-10px-bottom d-block">Sócio Proprietário (2011/2019)</span>
-                                            <p className="d-inline-block w-90 xl-w-95">Designer de estampas, Desenvolvedor Web, Modelista, Marketing, Produção de roupas e ensaios fotográficos para moda.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* end feature box item */}
-                                {/* start feature box item */}
-                                <div className="col margin-six-bottom md-margin-40px-bottom last-paragraph-no-margin text-center text-md-start">
-                                    <div className="row">
-                                        <div className="col-12 col-lg-3 text-center">
-                                            <h3 className="text-light-gray font-weight-300 mb-0 letter-spacing-minus-2">02</h3>
-                                        </div>
-                                        <div className="col-12 col-lg-9 margin-5px-top text-center text-lg-start">
-                                            <span className="alt-font text-extra-dark-gray font-weight-600 margin-one-bottom d-block">Estamper - Uniformes</span>
-                                            <span className="alt-font text-extra-small text-uppercase margin-10px-bottom d-block">Sócio Proprietário (2008 a 2011)</span>
-                                            <p className="d-inline-block w-90 xl-w-95">Coordenação de equipes para confecção de uniformes escolares e promocionais.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* end feature box item */}
-                                {/* start feature box item */}
-                                <div className="col margin-six-bottom md-margin-40px-bottom last-paragraph-no-margin text-center text-md-start">
-                                    <div className="row">
-                                        <div className="col-12 col-lg-3 text-center">
-                                            <h3 className="text-light-gray font-weight-300 mb-0 letter-spacing-minus-2">03</h3>
-                                        </div>
-                                        <div className="col-12 col-lg-9 margin-5px-top text-center text-lg-start">
-                                            <span className="alt-font text-extra-dark-gray font-weight-600 margin-one-bottom d-block">AdonaiRicci - Gráfica</span>
-                                            <span className="alt-font text-extra-small text-uppercase margin-10px-bottom d-block">Designer Gráfico, operador de plotter (2006 a 2007)</span>
-                                            <p className="d-inline-block w-90 xl-w-95">Criação de layouts para impressão de banners e adesivos, operar plotter de impressão.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* end feature box item */}
-                                
-                                {/* start feature box item */}
-                                <div className="col md-margin-40px-bottom lg-margin-six-bottom last-paragraph-no-margin text-center text-md-start">
-                                    <div className="row">
-                                        <div className="col-12 col-lg-3 text-center">
-                                            <h3 className="text-light-gray font-weight-300 mb-0 letter-spacing-minus-2">04</h3>
-                                        </div>
-                                        <div className="col-12 col-lg-9 margin-5px-top text-center text-lg-start">
-                                            <span className="alt-font text-extra-dark-gray font-weight-600 margin-one-bottom d-block">Proassp - Assessoria e Projetos</span>
-                                            <span className="alt-font text-extra-small text-uppercase margin-10px-bottom d-block">Desenhista Projetista (2004 a 2006)</span>
-                                            <p className="d-inline-block w-90 xl-w-95">Desenhista Projetista de impermeabilização, desenho de arquitetura e engenharia civil.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* end feature box item */}
-                                
+                                <Experience num='01' title='Murb - Branding' subtitle='Sócio Proprietário (2011/2019)' desc='Designer de estampas, Desenvolvedor Web, Modelista, Marketing, Produção de roupas e ensaios fotográficos para moda.'/>
+                                <Experience num='02' title='Estamper - Uniformes' subtitle='Sócio Proprietário (2008 a 2011)' desc='Coordenação de equipes para confecção de uniformes escolares e promocionais.'/>                              
+                                <Experience num='03' title='AdonaiRicci - Gráfica' subtitle='Designer Gráfico, operador de plotter (2006 a 2007)' desc='Criação de layouts para impressão de banners e adesivos, operar plotter de impressão.'/>
+                                <Experience num='04' title='Proassp - Assessoria e Projetos' subtitle='Desenhista Projetista (2004 a 2006)' desc='Desenhista Projetista de impermeabilização, desenho de arquitetura e engenharia civil.'/>
                             </div>
                         </div>
-
 
                     </div>
                      {/*col termina aqui*/}

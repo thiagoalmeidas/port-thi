@@ -1,9 +1,8 @@
 import Stackgraph from '../../components/stack/graph';
 
 
-function Card(props) {
+function Cardgraph(props) {
     return (
-        <div>
             <div className="card card-width bg-dark">
                 <img className="card-img-top" src={props.image} alt={props.title} />
                 <div className="card-body">
@@ -16,7 +15,6 @@ function Card(props) {
                     <Stackgraph stackgraph={props.stack3}/>
                 </div>
             </div>
-        </div>
     );
 }
-export default Card;
+export default Cardgraph;
