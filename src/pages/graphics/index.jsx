@@ -16,7 +16,6 @@ function Graphics() {
                     </div>
                 </div>
             </section>
-
         </div>
     );
 }

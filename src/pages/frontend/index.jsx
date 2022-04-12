@@ -1,13 +1,69 @@
 import Header from '../../components/header'
 
 
-function Home() {
-    return (     
+function Frontend() {
+    return (
         <div>
             <Header />
-            <h2>FrontEnd</h2>
-        </div>     
+            <section className="wow animate__fadeIn">
+                <div className="p-4 justify-content-center">
+                    <div className="row">
+                        <div className="col-md-6">
+
+                            <div class="row justify-content-center">
+                                <div class="col-12 text-center d-flex align-items-center md-margin-50px-bottom sm-margin-30px-bottom wow animate__fadeIn" style={{visibility: 'visible', animationName: 'fadeIn'}}>
+                                    <div class="overflow-hidden position-relative w-100">
+                                        <div class="opacity-medium bg-extra-dark-gray"></div>
+                                        <img src="img/banner-portfolio-thiago.jpg" class="w-100" alt="" data-no-retina=""/>
+                                            <div class="absolute-middle-center text-center">
+                                                <span class="text-medium-gray text-extra-small letter-spacing-1 alt-font text-uppercase margin-20px-bottom d-block">Assistir Projeto</span>
+                                                <h5 class="alt-font text-white-2 w-70 md-w-100 mx-auto">Vanessa Leme - Hair Stylist</h5>
+                                                <a href="https://player.vimeo.com/video/75976293" class="popup-vimeo btn btn-medium btn-transparent-white text-medium btn-rounded">Video Online <i class="fab fa-youtube icon-very-small" aria-hidden="true"></i></a>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div className=" col-md-6">
+                            <table class="table table-hover table-dark">
+                                <tbody>
+                                    <tr>
+                                        <th className='col-3'> Projeto </th>
+                                        <td>Vanessa Leme Hair</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"> Objetivo </th>
+                                        <td>Graphics - BackEnd - FrontEnd</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"> Plataformas </th>
+                                        <td>Desktop - Mobile</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"> Stacks </th>
+                                        <td>Figma - Photoshop - Illustrator - SQL - React</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"> Estado </th>
+                                        <td> Em Construcao </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"> GitHub </th>
+                                        <td> <a href="https://github.com/thiagoalmeidas/vanhair ">github.vanhair</a></td>
+                                    </tr>
+                                    
+
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     );
 }
-  
-export default Home;
+
+export default Frontend;
