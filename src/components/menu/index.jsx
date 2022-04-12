@@ -27,7 +27,7 @@ function Menu() {
                             <div className="col-lg-8 col-md-7 d-flex align-items-center">
                                 <ul className="hamburger-menu-links pt-4 mt-4 alt-font">
                                     <li><a href="https://portfolio-thiago.netlify.app/">Home</a>{/*<Link to="/home" title="Home">Home</Link>*/}</li>
-                                    <li><Link to="/sobre" title="Sobre">Experiencia</Link></li>
+                                    <li><Link to="/sobre" title="Sobre">Experiência</Link></li>
                                     <li><Link to="/backend" title="Backend">Backend</Link></li>
                                     <li><Link to="/frontend" title="Frontend">Frontend</Link></li>
                                     <li><Link to="/graphics" title="Graphics">Graphics</Link></li>
