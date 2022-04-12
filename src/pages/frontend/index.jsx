@@ -14,7 +14,7 @@ function Frontend() {
                                 <div class="col-12 text-center d-flex align-items-center md-margin-50px-bottom sm-margin-30px-bottom wow animate__fadeIn" style={{visibility: 'visible', animationName: 'fadeIn'}}>
                                     <div class="overflow-hidden position-relative w-100">
                                         <div class="opacity-medium bg-extra-dark-gray"></div>
-                                        <img src="img/banner-portfolio-thiago.jpg" class="w-100" alt="" data-no-retina=""/>
+                                        <img src="img/site-vanessa-leme-hair.jpg" class="w-100" alt="" data-no-retina=""/>
                                             <div class="absolute-middle-center text-center">
                                                 <span class="text-medium-gray text-extra-small letter-spacing-1 alt-font text-uppercase margin-20px-bottom d-block">Assistir Projeto</span>
                                                 <h5 class="alt-font text-white-2 w-70 md-w-100 mx-auto">Vanessa Leme - Hair Stylist</h5>
