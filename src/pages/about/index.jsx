@@ -19,7 +19,7 @@ function Home() {
                             <div className="padding-ten-all md-padding-70px-all sm-padding-25px-all bg-white box-shadow-light">
                                 <FaQuoteLeft />
                                 <h5 className="text-extra-dark-gray margin-50px-bottom md-margin-20px-bottom alt-font">
-                                    Olá, sou Frontend Developer com conhecimento em UI/UX Designer & Backend, Formado em Desenvolvedor FullStack pela RecodePro.
+                                    Olá, sou Desenvolvedor FullStack formado pela RecodePro.
                                 </h5>
                                 <ul className="text-medium list-style-3">
                                     <li><span className="w-30 lg-w-35 md-w-30 xs-w-35 xs-padding-5px-right d-inline-block">Nome:</span>Thiago de Almeida Silva</li>
@@ -42,7 +42,7 @@ function Home() {
                             <div className="position-relative icon-with-paragraph">
                                 <span className="text-deep-pink position-absolute left-0 top-0 alt-font special-char-extra-large d-none d-lg-block">*</span>
                                 <h5 className="font-weight-300 fs-4 w-90 padding-nineteen-left lg-padding-twenty-left lg-w-100 md-no-padding-left sm-margin-five-bottom">
-                                Sou orientado por ideias diferentes e únicas, trabalhando com um forte foco no design e na experiência do usuário. meus projetos devem envolver seu público com simplicidade e robustes, sempre me preocupando com as condicoes do frontend e backend, minhas qualificações me permitem navegar pelo lado cliente e servidor.
+                                Sou orientado por ideias diferentes e únicas, trabalhando com um forte foco na experiência do usuário. meus projetos devem envolver seu público com simplicidade e robustes, sempre me preocupando com as condicoes do frontend e backend, minhas qualificações me permitem navegar pelo lado cliente e servidor.
                                 </h5>
                             </div>
                         </div>
